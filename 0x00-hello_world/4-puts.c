@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
-* puts- prints exact quote to output
+* main- prints exact quote to output
 */
 int main(void)
 {
