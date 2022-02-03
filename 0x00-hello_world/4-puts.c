@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 /**
-* main- prints exact quote to output
-* return: 0
+* main - prints exact quote to output
+* Return: 0
 */
 int main(void)
 {
