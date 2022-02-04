@@ -16,7 +16,9 @@ float floatType; /* is the value of float */
 /**
 * sizeof- evaluate shows the size of each variable computed
 * @byte(s)\n"- byte(s) and add a new line
-* Return: 0 
+*
+*Description: This is cool it shows the numbers.
+* Return: 0
 */
 printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 printf("Size of an int: %zu byte(s)\n", sizeof(intType));
