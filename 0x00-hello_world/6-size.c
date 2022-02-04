@@ -13,11 +13,11 @@ int main(void)
 * long long int long long intType- is the value of that variable
 * float floatType- is the value of float
 */
-char charType
-int intType
-long int longintType
-long long int longlongintType
-float floatType
+char charType;
+int intType;
+long int longintType;
+long long int longlongintType;
+float floatType;
 
 /**
 * sizeof- evaluate shows the size of each variable computed
