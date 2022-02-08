@@ -4,7 +4,9 @@
 * Return: is always 0
 */
 
-void print_alphabet(void) /** print_alphabet - prints alphabet in lowercase */
+void print_alphabet(void)
+ /** print_alphabet - prints alphabet in lowercase
+ */
 
 {
 
