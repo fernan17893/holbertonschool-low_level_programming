@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+* main- main is my custom made header with commands special for this project
+* Return: is always 0
+*/
 
 int main(void)
 
