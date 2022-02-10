@@ -7,7 +7,7 @@
 */
 
 void times_table(void)
-	
+
 
 {
 	int a;
@@ -20,24 +20,24 @@ void times_table(void)
 	{
 	num = (a * b);
 
-	 if (b != 0)
-		{
-		  _putchar(',');
-        	 _putchar(' ');
-		}
+	if (b != 0)
+	{
+		_putchar(',');
+		_putchar(' ');
+	}
 
 	if (num >= 10)
-		{
+	{
 		_putchar ((num / 10) + '0');
 		_putchar((num % 10) + '0');
-		}
+	}
 
-	else if(num < 10 && b != 0)
+	else if (num < 10 && b != 0)
 		{
 		_putchar(' ');
 		_putchar((num + '0'));
 		}
-	else 
+	else
 		{
 		_putchar((num % 10) + '0');
 		}
