@@ -21,7 +21,7 @@ int print_last_digit(int n)
 	else
 	{
 
-	gcd = -n % 10;
+	gcd = (n % 10) * -1;
 	_putchar(gcd + '0');
 	return (gcd);
 	}
