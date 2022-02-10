@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* _isalpha - checks for alphabetic character
-*  Return: is 1 if alphabetic character, 0 otherwise
-* @c:Character being checked
+* print_sign - checks for alphabetic character
+* Return: is 1 if n is greater than 0, 0 if equal to zero, - if less than
+* @n: Character being checked
 */
 
 
@@ -21,7 +21,7 @@ int print_sign(int n)
 
 	return (0);
 	}
-	else 
+	else
 {
 	_putchar('-');
 
