@@ -13,9 +13,9 @@ int l, s;
 
 	if (n > 0)
 	{
-	for (l = 1; l < n; l++)
+	for (l = 0; l < n; l++)
 	{
-	for (s = 1; s < l; s++)
+	for (s = 0; s < l; s++)
 	_putchar(' ');
 	_putchar('\\');
 
