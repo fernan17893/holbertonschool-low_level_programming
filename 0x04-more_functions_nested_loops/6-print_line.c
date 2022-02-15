@@ -2,7 +2,7 @@
 
 /**
 * print_line- draws a straight line
-* n: number of characters
+* @n: number of characters
 *
 */
 
