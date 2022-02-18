@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 	p++;
 	}
 
-	for (j = 0; j < i/2; j++)
+	for (j = 0; j < i / 2; j++)
 	{
 	v = a[j];
 	a[j] = *p;
