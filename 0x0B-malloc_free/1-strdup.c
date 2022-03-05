@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdlib.h>
 
 /**
 * _strdup - function that returns a pointer to a new space in mem
@@ -21,7 +22,7 @@ char *_strdup(char *str)
 
 	for (j = 0; str[j] != '\0'; j++)
 
-	s = malloc(j * sizeof(char) + 1);
+	s = malloc(sizeof(char) * j + 1);
 	if (s == NULL)
 	return (NULL);
 
