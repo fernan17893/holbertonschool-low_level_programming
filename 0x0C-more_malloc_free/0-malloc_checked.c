@@ -3,6 +3,13 @@
 #include <stdlib.h>
 #include <limits.h>
 
+/**
+* malloc_checked- allocates memory
+* @b: memory to be allocated
+* Return: pointer to allocated memory; 98 if fail
+*/
+
+
 void *malloc_checked(unsigned int b)
 {
 
@@ -10,7 +17,7 @@ void *malloc_checked(unsigned int b)
 
 	if (i == NULL)
 	{
-	exit (98);
+	exit(98);
 	}
 
 	return (i);
