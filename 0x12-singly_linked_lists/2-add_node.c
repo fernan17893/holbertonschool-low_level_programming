@@ -23,6 +23,12 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		printf("Error\b");
 	}
+
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+
 	new->str = strdup(str);
 	new->len = length;
 	new->next = *head;
