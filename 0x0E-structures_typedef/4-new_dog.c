@@ -4,14 +4,14 @@
 
 char *_strdup(char *str);
 
- /**
-  * new_dog - Function that creates a new dog.
-  * @name: Name of dog.
-  * @age: Age of dog.
-  * @owner: Owner of dog.
-  *
-  * Return: 0
-  */
+/**
+ * new_dog- Function that creates a new dog.
+ * @name: Name of dog.
+ * @age: Age of dog.
+ * @owner: Owner of dog.
+ *
+ * Return: 0
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -46,8 +46,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 }
 
 /**
- * _strdup - Function that returns a pointer to a newly allocated space in
- * memory, that is a duplicate of the string.
+ * _strdup- returns pointer to a new space in memory, duplicate of the string.
  * @str: String
  *
  * Return: The pointer to the duplicated string
