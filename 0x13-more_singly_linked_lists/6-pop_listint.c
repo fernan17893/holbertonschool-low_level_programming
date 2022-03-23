@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
-*
-* pop_listint- deletes head node
+* pop_listint-deletes head node
 * @head: pointer to head node
 * Return: 0
 *
