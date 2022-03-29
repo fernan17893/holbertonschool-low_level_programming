@@ -30,7 +30,9 @@ int create_file(const char *filename, char *text_content)
 	if (text_content != NULL)
 	{
 		for (len = 0; text_content[len] != '\0'; len++)
+		{	
 			;
+		}
 	}		
 	w = write(o, text_content, len);
 		if (w == -1)
