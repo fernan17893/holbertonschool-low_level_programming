@@ -31,4 +31,4 @@ char *_strstr(char *haystack, char *needle)
 		return (haystack);
 	else
 		return (0);
-}	
+}
