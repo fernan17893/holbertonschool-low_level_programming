@@ -4,11 +4,11 @@
 #include "lists.h"
 
 /**
+* add_dnodeint- adds node to begging of linked lists
+* @head: head of linked lists
+* @n: node
 *
-*
-*
-*
-*
+* Return: address of new node
 *
 *
 */
