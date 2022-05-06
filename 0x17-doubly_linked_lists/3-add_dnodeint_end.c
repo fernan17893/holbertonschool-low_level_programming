@@ -4,11 +4,11 @@
 #include "lists.h"
 
 /**
+* add_dnodeint_end- add node to end of list
+* @head: head of list
+* @n: node
 *
-*
-*
-*
-*
+* Return: address of node
 *
 */
 
@@ -25,9 +25,9 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	new->n = n;
 	new->next = NULL;
-	last= *head;
+	last = *head;
 
-	if (*head == NULL) 
+	if (*head == NULL)
 	{
 		new->prev = NULL;
 		*head = new;
@@ -38,7 +38,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		last = last->next;
 
 	last->next = new;
-	new->prev= last;
+	new->prev = last;
 
 	return (new);
 }
