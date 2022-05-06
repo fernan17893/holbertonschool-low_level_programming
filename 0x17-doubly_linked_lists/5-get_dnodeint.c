@@ -4,11 +4,11 @@
 #include "lists.h"
 
 /**
+* get_dnodeint_at_index- returns nth node
+* @head:head of the node
+* @index: index of the node starts at 0
 *
-8
-*
-*
-*
+* Return: node position
 */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
@@ -26,4 +26,4 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		head = head->next;
 	}
 	return (head);
-}	
+}
