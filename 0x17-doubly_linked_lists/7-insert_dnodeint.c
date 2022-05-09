@@ -3,6 +3,17 @@
 #include <stdio.h>
 #include "lists.h"
 
+
+
+/**
+* insert_dnodeint_at_index - add node at index of list
+*@h: head of list
+*@idx: given index
+*@n: data
+* Return: new node added at index
+*
+*/
+
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 
@@ -13,7 +24,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	for (count = 0; tmp != NULL; count++)
 	{
-	tmp = tmp->next;
+		tmp = tmp->next;
 	}
 
 	if (idx > count)
@@ -45,7 +56,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		return (add_dnodeint(h, n));
 	}
 
-	if (idx == count - 1)
+	if (idx == count)
 	{
 		return (add_dnodeint_end(h, n));
 	}
