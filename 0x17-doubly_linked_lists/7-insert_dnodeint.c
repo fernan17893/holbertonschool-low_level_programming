@@ -2,18 +2,13 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
-
-
-
 /**
 * insert_dnodeint_at_index - add node at index of list
 *@h: head of list
 *@idx: given index
 *@n: data
 * Return: new node added at index
-*
 */
-
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 
@@ -26,12 +21,10 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	{
 		tmp = tmp->next;
 	}
-
 	if (idx > count)
 	{
 		return (NULL);
 	}
-
 	new_node = malloc(sizeof(dlistint_t));
 	if (new_node == NULL)
 	{
@@ -50,16 +43,13 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		new_node->prev = tmp;
 		new_node->next->prev = new_node;
 	}
-				
 	if (idx == 0)
 	{
 		return (add_dnodeint(h, n));
 	}
-
 	if (idx == count)
 	{
 		return (add_dnodeint_end(h, n));
 	}
-
 	return (new_node);
 }
