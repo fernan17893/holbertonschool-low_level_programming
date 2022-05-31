@@ -1,6 +1,13 @@
 #include "hash_tables.h"
 
-
+/**
+* hash_table_set- adds element to hash tale
+* @ht: hash table we are adding element to
+* @key: key
+* @value: value associated with key.
+*
+* Returns: 1 if succeeds, 0 otherwise
+*/
 
 
 
