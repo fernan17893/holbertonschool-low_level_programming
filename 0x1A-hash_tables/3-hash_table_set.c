@@ -6,7 +6,7 @@
 * @key: key
 * @value: value associated with key.
 *
-* Returns: 1 if succeeds, 0 otherwise
+* Return: 1 if succeeds, 0 otherwise
 */
 
 
